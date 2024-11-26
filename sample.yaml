@@ -1,0 +1,58 @@
+# Sample YAML File
+
+# Basic key-value pairs
+name: John Doe
+age: 30
+email: john.doe@example.com
+
+# A list (sequence) of simple values
+hobbies:
+  - Reading
+  - Hiking
+  - Cooking
+
+# A list (sequence) of key-value objects
+addresses:
+  - type: Home
+    street: 123 Maple Street
+    city: Springfield
+    zip: 12345
+  - type: Work
+    street: 456 Elm Street
+    city: Metropolis
+    zip: 67890
+
+# Nested key-value pairs
+job:
+  title: Software Developer
+  department:
+    name: IT
+    manager: Alice Johnson
+
+# A mix of key-value and sequences
+projects:
+  - name: Project Alpha
+    status: Completed
+    team:
+      - Alice
+      - Bob
+      - Charlie
+  - name: Project Beta
+    status: Ongoing
+    team:
+      - Diana
+      - Ethan
+    bio: |
+      John Doe is a passionate software developer
+      who loves exploring new technologies and
+      building innovative solutions.
+
+# Scalars (simple data types)
+is_active: true
+joined_date: 2022-05-15
+
+# Multiline string
+bio: |
+  John Doe is a passionate software developer
+  who loves exploring new technologies and
+  building innovative solutions.
